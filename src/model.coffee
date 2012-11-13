@@ -17,11 +17,11 @@ class Model
     @residual = new Residual(@width,@height)
     @residualData = @residual.data
 
-  @generate: ->
+  generate: ->
     @modelFunc(@data,@width,@height,@params)
     undefined
 
-  @calculateResidual: ->
+  calculateResidual: ->
     for index in [0..(@length-1)]
       @residualData[index] = @fitsData[index] - @data[index]
     undefined
