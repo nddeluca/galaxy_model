@@ -10,7 +10,7 @@ class Model
     @length = @width*@height
 
     #Initialize model data array
-    @modelBuffer = new ArrayBuffer(@length)
+    @modelBuffer = new ArrayBuffer(@length*4)
     @data = new Float32Array(@modelBuffer)
 
     #Intialize residual

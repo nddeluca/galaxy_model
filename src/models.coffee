@@ -9,3 +9,5 @@ models =
         exponent = params.coeff*Math.pow(r/params.effRadius,1/params.n) - 1
         modelData[y*width+x] = params.intensity*Math.exp(-exponent)
     undefined
+
+module?.exports = models
