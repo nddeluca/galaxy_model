@@ -1,0 +1,12 @@
+{
+  "name": "galaxy_model",
+  "version": "0.0.1",
+  "author": "Nicholas DeLuca <nickdeluca08@gmail.com>",
+  "description": "Project to generate galaxy models and residuals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nddeluca/galaxy_model"
+   },
+   "dependencies": {
+   }
+}
