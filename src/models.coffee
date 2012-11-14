@@ -8,7 +8,7 @@ models =
         r_x = (x-params.center.x)*cos+(y-params.center.y)*sin
         r_y = ((y-params.center.y)*cos+(x-params.center.x)*sin)/params.axisRatio
         r = Math.sqrt(r_x*r_x + r_y*r_y)
-        exponent = params.coeff*Math.pow(r/params.effRadius,1/params.n) - 1
+        exponent = norm*Math.pow(r/params.effRadius,1/params.n) - 1
         modelData[y*width+x] = params.intensity*Math.exp(-exponent)
     undefined
 
