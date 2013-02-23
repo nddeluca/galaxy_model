@@ -1,4 +1,1 @@
-galaxy_model
-============
-
-Library for creating galaxy models and generating residuals
+Library is outdated and has been replaced.
